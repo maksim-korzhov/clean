@@ -1,0 +1,27 @@
+{
+  "name": "clean_project",
+  "version": "1.0.0",
+  "description": "Clean project for development. It's a snippet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maksim Korzhov",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "normalize.css": "^5.0.0",
+    "run-sequence": "^1.2.2"
+  }
+}
