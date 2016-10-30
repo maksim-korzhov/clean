@@ -45,7 +45,9 @@ gulp.task('sass', function(){
         .pipe(sass({
             outputStyle: 'expanded',
             includePaths: [
-                'node_modules/normalize.css/'
+                'node_modules/normalize.css/',
+                'node_modules/node-neat/node_modules/node-bourbon/node_modules/bourbon/app/assets/stylesheets/', // Подключаем Bourbon
+                'node_modules/node-neat/node_modules/bourbon-neat/app/assets/stylesheets/' // Подключаем Bourbon-neat
                 //'node_modules/susy/sass'
             ]
         }).on('error', sass.logError))
